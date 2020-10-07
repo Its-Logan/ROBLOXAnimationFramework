@@ -21,12 +21,19 @@ Method 2
   
 ## How to use
 `* = Required`
-> :Play(AnimationController, Animation, Object, Override) Plays a new animation\n
->   AnimationController (*)  Instance, Classname is *AnimationController* or *Humanoid*\n
+> :Play(AnimationController, Animation, Object, Override) Plays a new animation
+
+>   AnimationController (*)  Instance, Classname is *AnimationController* or *Humanoid*
+
 >   Animation (*) Instance, Classname is *Animation*\n
->   Object (*) Instance, The object of which the animation you want to be played is, This will be stored in a table for future functions.\n
->   Override bool, This will override the current playing animation.\n
+>   Object (*) Instance, The object of which the animation you want to be played is, This will be stored in a table for future functions.
+
+>   Override bool, This will override the current playing animation.
+
 >
->  :Stop(Object, WaitForAnimationToFinish) Stops a animation from an object.\n
->   Object (*) Instance, the object of which the animation is playing under, this was stored from the :Play() function\n
->   WaitForAnimationToFinish bool, This will wait to until the current animation is done playing to stop it\n
+>  :Stop(Object, WaitForAnimationToFinish) Stops a animation from an object.
+
+>   Object (*) Instance, the object of which the animation is playing under, this was stored from the :Play() function
+
+>   WaitForAnimationToFinish bool, This will wait to until the current animation is done playing to stop it
+
