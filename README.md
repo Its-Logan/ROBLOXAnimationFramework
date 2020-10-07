@@ -27,5 +27,6 @@ Method 2
 >   Object (*) Instance, The object of which the animation you want to be played is, This will be stored in a table for future functions.
 >   Override bool, This will override the current playing animation.
 >
->  :Stop(Object) Stops a animation from an object.
+>  :Stop(Object, WaitForAnimationToFinish) Stops a animation from an object.
 >   Object (*) Instance, the object of which the animation is playing under, this was stored from the :Play() function
+>   WaitForAnimationToFinish bool, This will wait to until the current animation is done playing to stop it
